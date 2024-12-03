@@ -1,0 +1,16 @@
+\name{Steal.Savvy}
+\alias{Steal.Savvy}
+\title{Steal.Savvy}
+\usage{
+Steal.Savvy <- (PLAYER_NAME, STL_x)
+}
+\arguments{
+\item{PLAYER_NAME}{The name of the player}
+\item{STL_X}{Steals per game of the player}
+}
+\description{
+Rate a players ability to generate steals
+}
+\examples{
+Steal.Savvy("Lebron James", 2)
+}

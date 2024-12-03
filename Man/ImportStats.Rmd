@@ -1,0 +1,15 @@
+\name{ImportStats}
+\alias{ImportStats}
+\title{ImportStats}
+\usage{
+ImportStats()
+}
+\imports{
+utils
+}
+\description{
+Returns the CSV file as a dataframe that can be used
+}
+\examples{
+ImportStats()
+}

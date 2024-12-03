@@ -1,0 +1,19 @@
+\name{Three.Point.Volume}
+\alias{Three.Point.Volume}
+\title{Three.Point.Volume}
+\usage{
+Three.Point.Volume(PLAYER_NAME, FG3A, FG3M)
+}
+\arguments{
+\item{PLAYER_NAME}{The name of the player}
+\item{FG3A}{Players 3 pointers attempted per game}
+\item{FG3M}{Players 3 pointers made per game}
+\imports{
+ggplot2
+}
+\description{
+Plots a graph to showcase a player's efficiency and volume of 3 pointers
+}
+\examples{
+Three.Point.Volume("Lebron James", 4.1, 1.7)
+}

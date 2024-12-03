@@ -1,0 +1,16 @@
+\name{Foul.Master}
+\alias{Foul.Master}
+\title{Foul.Master}
+\usage{
+Foul.Master <- (PLAYER_NAME, PFD)
+}
+\arguments{
+\item{PLAYER_NAME}{The name of the player}
+\item{PFD}{Amount of fouls player draws per game}
+}
+\description{
+Rate a players ability to to draw fouls
+}
+\examples{
+Foul.Master("Lebron James", 3.5)
+}

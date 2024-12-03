@@ -1,0 +1,17 @@
+\name{Playmaker}
+\alias{Playmaker}
+\title{Playmaker}
+\usage{
+Playmaker <- (PLAYER_NAME, AST, TOV)
+}
+\arguments{
+\item{PLAYER_NAME}{The name of the player}
+\item{AST}{Players average assists per game}
+\item{TOV}{Players average turnovers per game}
+}
+\description{
+Rate a players ability to run an offense for a team
+}
+\examples{
+Playmaker("Lebron James", 11.4, 2.1)
+}

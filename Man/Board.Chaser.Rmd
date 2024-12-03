@@ -1,0 +1,16 @@
+\name{Board.Chaser}
+\alias{Board.Chaser}
+\title{Board.Chaser}
+\usage{
+Board.Chaser <- (PLAYER_NAME, REB)
+}
+\arguments{
+\item{PLAYER_NAME}{The name of the player}
+\item{REB}{Rebounds per game of the player}
+}
+\description{
+Rate a players ability to grab rebounds
+}
+\examples{
+Board.Chaser("Lebron James", 2)
+}

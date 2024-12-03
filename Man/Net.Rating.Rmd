@@ -1,0 +1,16 @@
+\name{Net.Rating}
+\alias{Net.Rating}
+\title{Net.Rating}
+\usage{
+Net.Rating <- (PLAYER_NAME, PLUS_MINUS)
+}
+\arguments{
+\item{PLAYER_NAME}{The name of the player}
+\item{PLUS_MINUS}{Players average plus minus stat per game}
+}
+\description{
+Rate a players overall rating when on the floor
+}
+\examples{
+Net.Rating("Lebron James", 13.5)
+}

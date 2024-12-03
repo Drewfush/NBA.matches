@@ -1,0 +1,16 @@
+\name{Rim.Protector}
+\alias{Rim.Protector}
+\title{Rim.Protector}
+\usage{
+Rim.Protector <- (PLAYER_NAME, BLK_x)
+}
+\arguments{
+\item{PLAYER_NAME}{The name of the player}
+\item{BLK_x}{Players average blocks per game}
+}
+\description{
+Rate a players ability to generate blocks
+}
+\examples{
+Rim.Protector("Lebron James", 2.1)
+}

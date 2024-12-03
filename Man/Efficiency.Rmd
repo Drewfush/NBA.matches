@@ -1,0 +1,16 @@
+\name{Efficiency}
+\alias{Efficiency}
+\title{Efficiency}
+\usage{
+Efficiency <- (PLAYER_NAME, Efficiency)
+}
+\arguments{
+\item{PLAYER_NAME}{The name of the player}
+\item{Efficiency}{Player efficiency rating stat}
+}
+\description{
+Rate a players ability to score efficiently
+}
+\examples{
+Efficiency("Lebron James", 31.3)
+}

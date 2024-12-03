@@ -1,0 +1,16 @@
+\name{Distance.Shooter}
+\alias{Distance.Shooter}
+\title{Distance.Shooter}
+\usage{
+Distance.Shooter <- (PLAYER_NAME, FG_3)
+}
+\arguments{
+\item{PLAYER_NAME}{The name of the player}
+\item{FG_3}{3 point percentage of player as decimal}
+}
+\description{
+Rate a players ability to shoot 3 pointers
+}
+\examples{
+Distance.Shooter("Lebron James", .42)
+}
